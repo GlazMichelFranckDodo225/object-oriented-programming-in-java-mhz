@@ -2,6 +2,10 @@ package com.dgmf;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int myNumber = 5;
+        myNumber = 7;
+        int yourNumber = myNumber;
+
+        System.out.println(yourNumber);
     }
 }
