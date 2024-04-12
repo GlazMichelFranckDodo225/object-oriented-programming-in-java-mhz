@@ -1,5 +1,7 @@
 package com.dgmf.a.types;
 
+import java.util.Date;
+
 public class types {
     public static void main(String[] args) {
         /* Primitive Types */
@@ -11,5 +13,10 @@ public class types {
         double doubleViewsCount = 3_123_456_789D; // Or "3_123_456_789."
         char letter = 'B';
         boolean isActive = true; // Or "false;
+
+        /* Reference Types */
+        Date date = new Date();
+        // System.out.println("date"); // Non
+        System.out.println(date);
     }
 }
